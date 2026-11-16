@@ -9,39 +9,39 @@
 <body>
     <header class="site-header">
         <h1>Ceci Condarco</h1>
-    </header>
-
-    <nav class="main-navigation">
+        <nav class="main-navigation">
         <ul>
             <li>
-                <a href="#">Presentación</a>
+                <a href="#presentacion">Presentación</a>
             </li>
             <li>
-                <a href="#">Sobre mí</a>
+                <a href="#sobre-mi">Sobre mí</a>
             </li>
             <li>
-                <a href="#">Gustos e intereses</a>
+                <a href="#gustos-intereses">Gustos e intereses</a>
             </li>
             <li>
-                <a href="#">Mi inspiración</a>
+                <a href="#inspiracion">Mi inspiración</a>
             </li>
         </ul>
-        
     </nav>
+    </header>
+
+    
 
     <main>
 
-        <section class="presentacion">
+        <section class="presentacion" id="presentacion">
 
             <h2>Presentación</h2>
-            <img src="./imagenes/foto_perfil.jpg" alt="Ceci">
-            <p>Ana Cecilia Condarco Troncoso</p>
-            <p>"Si sientes que vas a chocar, acelera."</p>
+            <img src="./images/foto_perfil.jpg" alt="Ceci">
+            <p class="nombre">Ana Cecilia Condarco Troncoso</p>
+            <p class="frase">"Si sientes que vas a chocar, acelera."</p>
             <a href="https://github.com/ccondarco" target="_blank">Mi github</a>
 
         </section>
 
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobre-mi">
             <h2>Sobre mí</h2>
             <p>
                 Siempre he sido una persona curiosa. Muchas veces termino aprendiendo algo simplemente porque en 
@@ -51,11 +51,11 @@
             </p>
         </section>
 
-        <section class="gustos-intereses">
+        <section class="gustos-intereses" id="gustos-intereses">
 
             <h2>Gustos e intereses</h2>
             <ul>
-                <li>Música, me gusta particularmente el Pop y R&B</li>
+                <li>Música, me gusta particularmente el Pop y el R&B</li>
                 <li>Lectura, novelas de fantasía y romance</li>
                 <li>Baile</li>
                 <li>Astrología</li>
@@ -64,19 +64,25 @@
 
         </section>
 
-        <section class="inspiracion">
+        <section class="inspiracion" id="inspiracion">
 
             <h2>Mi inspiración</h2>
-            <h3>Min Yoongi</h3>
-            <img src="./imagenes/foto_yoongi.jpg" alt="Min Yoongi">
-            <p>Uno de los integrantes de BTS. Me inspira su capacidad de experimentar con distintos estilos y transformar 
-                sus ideas y experiencias de vida en arte que puede compartir con otras personas, permitiéndoles 
-                identificarse con ellas.</p>
+            <div class="inspiracion-contenido">
+                <div class="inspiracion-texto">
+                    <h3>Min Yoongi</h3>
+                    <p>Uno de los integrantes de BTS. Me inspira su capacidad de experimentar con 
+                        distintos estilos y transformar sus ideas y experiencias de vida en arte 
+                        que puede compartir con otras personas, permitiéndoles identificarse con ellas.</p>
+                </div>
+
+                <img src="./images/foto_yoongi.jpg" alt="Min Yoongi">
+
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Cecilia Condarco</p>
+        <p>&copy; 2026 Cecilia Condarco. Todos los derechos reservados.</p>
     </footer>
 
 </body>
